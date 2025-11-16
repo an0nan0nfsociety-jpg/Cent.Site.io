@@ -1,1 +1,15 @@
 
+body { font-family: Arial, sans-serif; background: linear-gradient(180deg, #07040a, #04030a); color: #fff; margin:0; padding:0; }
+header { padding:20px; background: #0f0b12; }
+header h1 { color:#8b5cf6; }
+header p { color:#bfc3d6; }
+nav a { margin-right:10px; color:#fff; text-decoration:none; padding:5px 10px; border-radius:5px; background:rgba(139,92,246,0.2); }
+main { padding:20px; display:flex; flex-direction:column; gap:20px; }
+section { padding:15px; background: rgba(255,255,255,0.05); border-radius:10px; }
+footer { padding:10px 20px; background:#0f0b12; color:#bfc3d6; text-align:center; }
+.lang-dropdown { position: relative; display:inline-block; }
+.lang-list { display:none; position:absolute; top:30px; left:0; background:#fff; color:#000; border-radius:6px; padding:5px; }
+.lang-list button { display:block; width:100%; background:none; border:none; text-align:left; padding:5px; cursor:pointer; }
+#langBtn { padding:5px 10px; border:none; border-radius:5px; cursor:pointer; }
+.btn-primary { background:#8b5cf6; color:#fff; padding:6px 12px; border-radius:6px; text-decoration:none; }
+.sticky-action { position:fixed; bottom:20px; left:20px; right:20px; background: rgba(139,92,246,0.15); padding:10px; border-radius:10px; display:flex; justify-content:space-between; }
