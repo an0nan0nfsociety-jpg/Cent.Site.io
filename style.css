@@ -1,9 +1,1 @@
 
-body { font-family: Arial, sans-serif; background: linear-gradient(180deg, #07040a, #04030a); color: #fff; margin:0; padding:0; }
-header { padding:20px; background: #0f0b12; }
-header h1 { color:#8b5cf6; }
-header p { color:#bfc3d6; }
-nav a { margin-right:10px; color:#fff; text-decoration:none; padding:5px 10px; border-radius:5px; background:rgba(139,92,246,0.2); }
-main { padding:20px; display:flex; flex-direction:column; gap:20px; }
-section { padding:15px; background: rgba(255,255,255,0.05); border-radius:10px; }
-footer { padding:10px 20px; background:#0f0b12; color:#bfc3d6; text-align:center; }
